@@ -1,0 +1,37 @@
+seed: 42
+experiment_name: "base"
+data:
+  dataset: ["dataset_name"]
+  caption_files: ["caption_file.json"]
+  num_workers: 16
+  val_split_num: 50000
+  precomputed_features_dir: "/path/to/precomputed/features"
+model:
+  embedding_space_dim: 768
+  vision_encoder: "vision_model_name"
+  vision_projector: 
+    hidden_size: 4096
+    num_layers: 0
+    normalize: True
+  language_encoder: "language_model_name"
+  language_projector:
+    hidden_size: 4096
+    num_layers: 4
+    normalize: True
+training:
+  max_steps: 5000
+  lr_warmup_steps: 150
+  learning_rate: 0.001
+  lr_schedule: "cosine"
+  batch_size: 1024
+  accumulate_grad_batches: 16
+  max_grad_norm: 1
+  weight_decay: 0.0001
+  early_stopping: True
+  early_stopping_patience: 50
+
+logging:
+  save_dir: "logs/"
+  save_checkpoint: True
+  log_every_n_steps: 10
+  val_check_interval: 500

@@ -1,0 +1,11 @@
+# Install from PyPI
+torch
+pytorch-lightning
+transformers
+omegaconf
+tqdm
+tensorboard
+datasets
+
+# Install from GitHub
+git+https://github.com/JonaRuthardt/featureutils.git
