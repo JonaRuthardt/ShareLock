@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 
 This repository provides the official implementation of *ShareLock*, an ultra-lightweight CLIP-like vision-language model, introduced in the paper:  
-**"Do Better Language Models Have Crisper Vision?"**  
+**"Better Language Models Exhibit Higher Visual Alignment"**  
 *[Jona Ruthardt](https://jonaruthardt.github.io/), [Gertjan J. Burghouts](https://gertjanburghouts.github.io), [Serge Belongie](https://sergebelongie.github.io/), [Yuki M. Asano](yukimasano.github.io/)*  
 
 📄 **[Read the Paper on arXiv](https://arxiv.org/pdf/2410.07173)**  
@@ -111,11 +111,11 @@ Our reported results were obtained via the [CLIP-Benchmark](https://github.com/L
 | Model         | Dataset        | IN-1k | IN-R  | IN-A  |
 |---------------|----------------|-------|-------|-------|
 | [CLIP](https://arxiv.org/abs/2103.00020)          | CC3M           | 16.0% | 17.6% | 3.6%  |
-| [LiT](https://arxiv.org/abs/2111.07991)           | CC3M           | 44.1% | 62.7% | 45.6% |
-| [**ShareLock**](https://arxiv.org/abs/2410.07173) | CC3M           | **52.1%** | **64.1%** | **50.9%** |
+| [LiT](https://arxiv.org/abs/2111.07991)           | CC3M           | 46.8% | 72.8% | 59.4% |
+| [**ShareLock**](https://arxiv.org/abs/2410.07173) | CC3M           | **54.5%** | **74.7%** | **65.9%** |
 | [CLIP](https://arxiv.org/abs/2103.00020)          | CC12M           | 41.6% | 52.6% | 3.6%  |
-| [LiT](https://arxiv.org/abs/2111.07991)           | CC12M           | 56.2% | **70.3%** | 52.8% |
-| [**ShareLock**](https://arxiv.org/abs/2410.07173) | CC12M           | **59.1%** | 68.8% | **53.4%** |
+| [LiT](https://arxiv.org/abs/2111.07991)           | CC12M           | 59.9% | **79.9%** | 68.2% |
+| [**ShareLock**](https://arxiv.org/abs/2410.07173) | CC12M           | **62.0%** | 78.5% | **70.1%** |
 
 For a comprehensive and detailed evaluation of ShareLock across various vision-language-modelling tasks, see [our paper](https://arxiv.org/pdf/2410.07173).
 
@@ -127,7 +127,7 @@ If you use this work, please cite:
 
 ```bibtex
 @article{ruthardt2024sharelock,
-  title={Do Better Language Models Have Crisper Vision?},
+  title={Better Language Models Exhibit Higher Visual Alignment},
   author={Jona Ruthardt and Gertjan J. Burghouts and Serge Belongie and Yuki M. Asano},
   journal={arXiv preprint arXiv:2410.07173},
   year={2024}
