@@ -8,6 +8,7 @@
 This repository provides the official implementation of *ShareLock*, an ultra-lightweight CLIP-like vision-language model, introduced in the paper:  
 **"Better Language Models Exhibit Higher Visual Alignment"**  
 *[Jona Ruthardt](https://jonaruthardt.github.io/), [Gertjan J. Burghouts](https://gertjanburghouts.github.io), [Serge Belongie](https://sergebelongie.github.io/), [Yuki M. Asano](yukimasano.github.io/)*  
+Published in **Transactions on Machine Learning Research (TMLR) 01/2026**
 
 📄 **[Read the Paper on arXiv](https://arxiv.org/pdf/2410.07173)**  
 🤗 **[Model Checkpoints on Hugging Face](https://huggingface.co/FunAILab/ShareLock)**  
@@ -129,8 +130,8 @@ If you use this work, please cite:
 @article{ruthardt2024sharelock,
   title={Better Language Models Exhibit Higher Visual Alignment},
   author={Jona Ruthardt and Gertjan J. Burghouts and Serge Belongie and Yuki M. Asano},
-  journal={arXiv preprint arXiv:2410.07173},
-  year={2024}
+  journal={Transactions on Machine Learning Research (TMLR)},
+  year={2026}
 }
 ```
 
