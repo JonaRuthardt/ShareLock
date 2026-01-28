@@ -1,5 +1,6 @@
 # Install from PyPI
 torch
+torchvision
 pytorch-lightning
 transformers
 omegaconf
