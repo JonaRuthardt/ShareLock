@@ -68,7 +68,7 @@ Published in **Transactions on Machine Learning Research (TMLR) 01/2026**
     Use pretrained models to extract vision and text embeddings:
     ```bash
     python precompute_image_features_hf.py # Hugginface datasets for classification tasks (test of final model)
-    python precompute_image_features_hf.py # Image-caption datasets in webdataset format (training and validation)
+    python precompute_image_features_wds.py # Image-caption datasets in webdataset format (training and validation)
     python precompute_language_features.py # JSON file containing caption for each uid in image dataset
     ```
     The dataset and backbone model to be used can be configured in the respective files via command line arguments. The precomputed features will be stored via the FeatureUtils library. The presence of a json file with iamge *uids* as keys and the corresponding captions as values is assumed. This information is consequently read and processed by the `precompute_language_features.py` script. 
